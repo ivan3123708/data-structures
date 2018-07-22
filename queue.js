@@ -15,17 +15,17 @@ class Queue {
     return this.collection;
   };
 
-  // pushes the item at the end of collection
+  // (or add) pushes the item at the end of collection
   enqueue(item) {
     this.collection.push(item);
   }
 
-  // removes the first item from collection
+  // (or remove) removes the first item from collection
   dequeue() {
     return this.collection.shift();
   }
 
-  // returns the first item in collection
+  // (or peek) returns the first item in collection
   front() {
     return this.collection[0];
   }
